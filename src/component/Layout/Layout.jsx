@@ -8,7 +8,7 @@ export default function Layout(props) {
     //这个组件用来做页面布局
     return (
         <div className={"Layout"}>
-            <ReturnNavButton title={props.title}/>
+            <ReturnNavButton title={props.title} isBack={props.isBack}/>
             <main>
                 {props.children}
             </main>
