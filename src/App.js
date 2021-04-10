@@ -1,4 +1,4 @@
-import WordTest from "./views/WordTest";
+import WordTest from "./views/WordTest/WordTest";
 import React from 'react';
 import './App.scss';
 

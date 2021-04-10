@@ -3,18 +3,18 @@ import "./index.scss"
 import IsKnow from "./IsKnow/IsKnow";
 import NoReciteAccount from "./NoReciteAccount/NoReciteAccount";
 import ReturnNavButton from "./ReturnButtonNav/ReturnNavButton";
+import Layout from "../../component/Layout/Layout";
 
 export default function WordTest() {
     return (
         <div className={"WordTest"}>
-            <ReturnNavButton/>
-            <main>
+            <Layout title={"英语词汇测试"}>
                 <NoReciteAccount/>
                 <div className="showWord">
                     <h1>Word</h1>
                 </div>
                 <IsKnow/>
-            </main>
+            </Layout>
         </div>
     )
 }
